@@ -14,7 +14,7 @@ async function fetchProducts() {
         console.log(products)       //printing products in the console
 
        
-        const tot = products.reduce((sum, product) => sum + product.price, 0)   //sum of all product price
+        let  tot = products.reduce((sum, product) => sum + product.price, 0)   //sum of all product price
 
        
         console.log("sum- ",tot) //printing sum of all [roduct price]
