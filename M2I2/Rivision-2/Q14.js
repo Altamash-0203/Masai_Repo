@@ -16,7 +16,7 @@ const checkout = {
     }
     
     else{
-    this.items.push(item);
+    this.items.push(item);   // placed inside else block
     
     this.total +=rs;
     }
