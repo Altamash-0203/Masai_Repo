@@ -28,7 +28,7 @@ const checkout = {
 
 
     
-    checkout.addItem({ name: "Coffee Maker", price:"99.95"});
+    checkout.addItem({ name: "Coffee Maker", price:"99.95"});  // the price is declared as string
     
     checkout.addItem({ name: "Milk", price: 3.50 });
     
